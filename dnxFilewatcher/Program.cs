@@ -18,8 +18,9 @@ public class Program
         watcher.EnableRaisingEvents = true;        
         System.Console.Read();        
     }
-    private static void RunTests(object source, System.IO.FileSystemEventArgs e)
+    private static void RunTests(object source, FileSystemEventArgs e)
     {
+       Console.WriteLine("File event occured, requesting test run at http://localhost:5004/api/TestRunner");
        HttpClient client = new HttpClient();
        client.GetAsync("http://localhost:5004/api/TestRunner");
     }

@@ -12,7 +12,7 @@ namespace TestRunner.Controllers
         [HttpGet]
         public void Start()
         {
-	       Console.WriteLine("Starting test run");
+	        Console.WriteLine("Running tests");
        		System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo();
        		System.Diagnostics.Process p = new System.Diagnostics.Process();
        		psi.FileName = "dnx";

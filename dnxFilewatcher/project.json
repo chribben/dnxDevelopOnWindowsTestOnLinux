@@ -1,7 +1,9 @@
 {
   "version": "1.0.0-*",
   "dependencies": {
-    "System.Net.Http": "4.0.0-beta-23110"
+    "System.Net.Http": "4.0.0-beta-23110",
+    "System.Console": "4.0.0-beta-23110",
+    "System.IO.FileSystem.Watcher": "4.0.0-beta-23110"
   },
   "commands": {
     "run": "run"
