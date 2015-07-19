@@ -1,2 +1,2 @@
 # dnxDevelopOnWindowsTestOnLinux
-This repository serves as the sample code in [this](http://www.jayway.com/author/christianjacobsen/) blog post.
+This repository serves as the sample code in [this](https://www.jayway.com/2015/07/20/exploring-cross-platform-development-using-net/) blog post.
